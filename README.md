@@ -25,7 +25,7 @@ The Azure Stack Hub Operators use a wide range of tooling to manage their infras
 Most of these scripts are small snippets which can, and should be, included in your own automation. As most of them are generalized scripts, you will need to configure them according to your own environment.
 
 
-## SlideShare
+## Core Fountations
 
-As we run webcasts and presentations (like the "work from home" sessions ran in April 2020), the [SlideShare](http://github.com/Azure-Samples/Azure-Stack-Hub-Foundation-Core/tree/master/SlideShare) folder will be used to ... you guessed it from the name ... share the slides. 
+The [Azure Stack Hub Foundation Core](https://github.com/Azure-Samples/Azure-Stack-Hub-Foundation-Core) are a set of materials (PowerPoint presentations, workshops, links to videos, and tools) aiming to provide Azure Stack Hub Operators the foundational materials required to ramp-up and understand the basics of operating Azure Stack Hub, as well as accelerate their operational practices. 
 
