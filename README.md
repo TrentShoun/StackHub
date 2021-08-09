@@ -29,7 +29,9 @@ The [ASR-failback-script](https://github.com/Azure-Samples/Azure-Stack-Hub-Found
 
 # Tools
 
-The Azure Stack Hub Operators use a wide range of tooling to manage their infrastructure. The [Tools](http://github.com/Azure-Samples/Azure-Stack-Hub-Foundation-Core/tree/master/Tools) folder provides these as a starting point - from PowerShell scripts, to API calls, ARM templates, Azure integration, and all kinds of automation. This repo is intended to capture some fo these tools and to provide them as example for others, as they are building their tooling as well. 
+The Azure Stack Hub Operators use a wide range of tooling to manage their infrastructure. The [Foundational Tools](http://github.com/Azure-Samples/Azure-Stack-Hub-Foundation-Core/tree/master/Tools) folder provides these as a starting point - from PowerShell scripts, to API calls, ARM templates, Azure integration, and all kinds of automation. This repo is intended to capture some fo these tools and to provide them as example for others, as they are building their tooling as well. 
 Most of these scripts are small snippets which can, and should be, included in your own automation. As most of them are generalized scripts, you will need to configure them according to your own environment.
+
+Also check this collection of [Azure Stack Tools](https://github.com/Azure/AzureStack-Tools) 
 
 
