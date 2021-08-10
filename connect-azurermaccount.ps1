@@ -4,7 +4,7 @@ read-host -assecurestring | convertfrom-securestring | out-file c:\temp\cred.txt
 
 Add-AzureRMEnvironment -Name "AzureStack" -ArmEndpoint https://management.local.azurestack.external
 $AuthEndpoint = (Get-AzureRMEnvironment -Name "AzureStack").ActiveDirectoryAuthority.TrimEnd('/')
-$AADTenantName = "trentsh.onmicrosoft.com"
+$AADTenantName = "tenant.onmicrosoft.com"
 $TenantId = (invoke-restmethod "$($AuthEndpoint)/$($AADTenantName)/.well-known/openid-configuration").issuer.TrimEnd('/').Split('/')[-1]
 
 $userId = "user@yourtenant.onmicrosoft.com"
